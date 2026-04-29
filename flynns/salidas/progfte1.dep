@@ -1,0 +1,50 @@
+═════════════════════════════════════════════════════════════════
+  PROGRAMA FUENTE DEPURADO - LENGUAJE FLYNNS
+  (sin comentarios, espacios en blanco eliminados)
+═════════════════════════════════════════════════════════════════
+
+pf2025  MiPrimerPrograma  
+decl  
+Ent  a ,  b ,  resultado ; 
+cad  mensaje ; 
+Bool  bandera ; 
+inicio 
+    a  :=  10 ; 
+    b  :=  5 ; 
+    bandera  :=  verdadero ; 
+    resultado  :=  a  +  b ; 
+    resultado  :=  a  -  b ; 
+    resultado  :=  a  *  b ; 
+    resultado  :=  a  /  b ; 
+    resultado  :=  a  +  ( b  *  2 ) ; 
+    impcad ( "Dame un numero entero:" ) ; 
+    leerdig ( a ) ; 
+    impdig ( resultado ) ; 
+    impcad ( "Ingresa tu nombre:" ) ; 
+    leercad ( mensaje ) ; 
+    impcad ( mensaje ) ; 
+    si  a  >  b  entonces 
+        impdig ( a ) ; 
+    sino 
+        impdig ( b ) ; 
+    finsi 
+    si  a  ==  b  entonces 
+        impcad ( "Son iguales" ) ; 
+    finsi 
+    si  a  !=  b  entonces 
+        impcad ( "Son diferentes" ) ; 
+    finsi 
+    si  a  >=  10  entonces 
+        bandera  :=  verdadero ; 
+    finsi 
+    si  a  <=  5  entonces 
+        bandera  :=  falso ; 
+    finsi 
+    si  bandera  y  a  >  0  entonces 
+        impcad ( "Condicion verdadera" ) ; 
+    finsi 
+    si  no  bandera  o  b  <  3  entonces 
+        impcad ( "Condicion alternativa" ) ; 
+    finsi 
+    impBool ( bandera ) ; 
+fin 

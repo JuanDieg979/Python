@@ -1,0 +1,204 @@
+=================================================================
+  LISTA DE LEXEMAS - LENGUAJE FLYNNS
+=================================================================
+  Total de tokens reconocidos: 190
+-----------------------------------------------------------------
+
+Renglón: 1, Lexema: pf2025, Token: 100 PROG
+Renglón: 1, Lexema: PruebaSistema, Token: 300 ID
+Renglón: 3, Lexema: decl, Token: 101 DECL
+Renglón: 4, Lexema: Ent, Token: 200 TIPO
+Renglón: 4, Lexema: x, Token: 301 ID
+Renglón: 4, Lexema: ,, Token: 801 COMA
+Renglón: 4, Lexema: contador, Token: 302 ID
+Renglón: 4, Lexema: ,, Token: 801 COMA
+Renglón: 4, Lexema: resultado, Token: 303 ID
+Renglón: 4, Lexema: ;, Token: 800 PC
+Renglón: 5, Lexema: cad, Token: 200 TIPO
+Renglón: 5, Lexema: mensaje, Token: 304 ID
+Renglón: 5, Lexema: ;, Token: 800 PC
+Renglón: 6, Lexema: Bool, Token: 200 TIPO
+Renglón: 6, Lexema: activo, Token: 305 ID
+Renglón: 6, Lexema: ;, Token: 800 PC
+Renglón: 8, Lexema: inicio, Token: 102 INICIO
+Renglón: 11, Lexema: x, Token: 301 ID
+Renglón: 11, Lexema: :=, Token: 600 ASIG
+Renglón: 11, Lexema: 10, Token: 400 CENT
+Renglón: 11, Lexema: ;, Token: 800 PC
+Renglón: 12, Lexema: contador, Token: 302 ID
+Renglón: 12, Lexema: :=, Token: 600 ASIG
+Renglón: 12, Lexema: 0, Token: 401 CENT
+Renglón: 12, Lexema: ;, Token: 800 PC
+Renglón: 13, Lexema: activo, Token: 305 ID
+Renglón: 13, Lexema: :=, Token: 600 ASIG
+Renglón: 13, Lexema: verdadero, Token: 201 VERDADERO
+Renglón: 13, Lexema: ;, Token: 800 PC
+Renglón: 16, Lexema: resultado, Token: 303 ID
+Renglón: 16, Lexema: :=, Token: 600 ASIG
+Renglón: 16, Lexema: x, Token: 301 ID
+Renglón: 16, Lexema: +, Token: 500 MAS
+Renglón: 16, Lexema: contador, Token: 302 ID
+Renglón: 16, Lexema: ;, Token: 800 PC
+Renglón: 17, Lexema: resultado, Token: 303 ID
+Renglón: 17, Lexema: :=, Token: 600 ASIG
+Renglón: 17, Lexema: x, Token: 301 ID
+Renglón: 17, Lexema: -, Token: 501 MENOS
+Renglón: 17, Lexema: 3, Token: 402 CENT
+Renglón: 17, Lexema: ;, Token: 800 PC
+Renglón: 18, Lexema: resultado, Token: 303 ID
+Renglón: 18, Lexema: :=, Token: 600 ASIG
+Renglón: 18, Lexema: x, Token: 301 ID
+Renglón: 18, Lexema: *, Token: 502 MUL
+Renglón: 18, Lexema: 2, Token: 403 CENT
+Renglón: 18, Lexema: ;, Token: 800 PC
+Renglón: 19, Lexema: resultado, Token: 303 ID
+Renglón: 19, Lexema: :=, Token: 600 ASIG
+Renglón: 19, Lexema: x, Token: 301 ID
+Renglón: 19, Lexema: /, Token: 503 DIV
+Renglón: 19, Lexema: 5, Token: 404 CENT
+Renglón: 19, Lexema: ;, Token: 800 PC
+Renglón: 22, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 22, Lexema: (, Token: 802 PAREN
+Renglón: 22, Lexema: "Ingresa un valor:", Token: 401 CADENA
+Renglón: 22, Lexema: ), Token: 803 TESIS
+Renglón: 22, Lexema: ;, Token: 800 PC
+Renglón: 23, Lexema: leerdig, Token: 213 LEERDIG
+Renglón: 23, Lexema: (, Token: 802 PAREN
+Renglón: 23, Lexema: x, Token: 301 ID
+Renglón: 23, Lexema: ), Token: 803 TESIS
+Renglón: 23, Lexema: ;, Token: 800 PC
+Renglón: 24, Lexema: impdig, Token: 210 IMPDIG
+Renglón: 24, Lexema: (, Token: 802 PAREN
+Renglón: 24, Lexema: resultado, Token: 303 ID
+Renglón: 24, Lexema: ), Token: 803 TESIS
+Renglón: 24, Lexema: ;, Token: 800 PC
+Renglón: 25, Lexema: leercad, Token: 214 LEERCAD
+Renglón: 25, Lexema: (, Token: 802 PAREN
+Renglón: 25, Lexema: mensaje, Token: 304 ID
+Renglón: 25, Lexema: ), Token: 803 TESIS
+Renglón: 25, Lexema: ;, Token: 800 PC
+Renglón: 26, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 26, Lexema: (, Token: 802 PAREN
+Renglón: 26, Lexema: mensaje, Token: 304 ID
+Renglón: 26, Lexema: ), Token: 803 TESIS
+Renglón: 26, Lexema: ;, Token: 800 PC
+Renglón: 27, Lexema: leerBool, Token: 215 LEERBOOL
+Renglón: 27, Lexema: (, Token: 802 PAREN
+Renglón: 27, Lexema: activo, Token: 305 ID
+Renglón: 27, Lexema: ), Token: 803 TESIS
+Renglón: 27, Lexema: ;, Token: 800 PC
+Renglón: 28, Lexema: impBool, Token: 212 IMPBOOL
+Renglón: 28, Lexema: (, Token: 802 PAREN
+Renglón: 28, Lexema: activo, Token: 305 ID
+Renglón: 28, Lexema: ), Token: 803 TESIS
+Renglón: 28, Lexema: ;, Token: 800 PC
+Renglón: 31, Lexema: si, Token: 105 SI
+Renglón: 31, Lexema: x, Token: 301 ID
+Renglón: 31, Lexema: >, Token: 604 MAYOR
+Renglón: 31, Lexema: 0, Token: 401 CENT
+Renglón: 31, Lexema: entonces, Token: 106 ENTONCES
+Renglón: 32, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 32, Lexema: (, Token: 802 PAREN
+Renglón: 32, Lexema: "Positivo", Token: 401 CADENA
+Renglón: 32, Lexema: ), Token: 803 TESIS
+Renglón: 32, Lexema: ;, Token: 800 PC
+Renglón: 33, Lexema: sino, Token: 107 SINO
+Renglón: 34, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 34, Lexema: (, Token: 802 PAREN
+Renglón: 34, Lexema: "No positivo", Token: 401 CADENA
+Renglón: 34, Lexema: ), Token: 803 TESIS
+Renglón: 34, Lexema: ;, Token: 800 PC
+Renglón: 35, Lexema: finsi, Token: 104 FIN_BLOQUE
+Renglón: 38, Lexema: si, Token: 105 SI
+Renglón: 38, Lexema: x, Token: 301 ID
+Renglón: 38, Lexema: ==, Token: 602 IGUALIGUAL
+Renglón: 38, Lexema: 10, Token: 400 CENT
+Renglón: 38, Lexema: entonces, Token: 106 ENTONCES
+Renglón: 39, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 39, Lexema: (, Token: 802 PAREN
+Renglón: 39, Lexema: "Es diez", Token: 401 CADENA
+Renglón: 39, Lexema: ), Token: 803 TESIS
+Renglón: 39, Lexema: ;, Token: 800 PC
+Renglón: 40, Lexema: finsi, Token: 104 FIN_BLOQUE
+Renglón: 42, Lexema: si, Token: 105 SI
+Renglón: 42, Lexema: x, Token: 301 ID
+Renglón: 42, Lexema: !=, Token: 603 DISTINTO
+Renglón: 42, Lexema: 5, Token: 404 CENT
+Renglón: 42, Lexema: entonces, Token: 106 ENTONCES
+Renglón: 43, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 43, Lexema: (, Token: 802 PAREN
+Renglón: 43, Lexema: "No es cinco", Token: 401 CADENA
+Renglón: 43, Lexema: ), Token: 803 TESIS
+Renglón: 43, Lexema: ;, Token: 800 PC
+Renglón: 44, Lexema: finsi, Token: 104 FIN_BLOQUE
+Renglón: 46, Lexema: si, Token: 105 SI
+Renglón: 46, Lexema: x, Token: 301 ID
+Renglón: 46, Lexema: >=, Token: 606 MAYOREQ
+Renglón: 46, Lexema: 10, Token: 400 CENT
+Renglón: 46, Lexema: entonces, Token: 106 ENTONCES
+Renglón: 47, Lexema: activo, Token: 305 ID
+Renglón: 47, Lexema: :=, Token: 600 ASIG
+Renglón: 47, Lexema: verdadero, Token: 201 VERDADERO
+Renglón: 47, Lexema: ;, Token: 800 PC
+Renglón: 48, Lexema: finsi, Token: 104 FIN_BLOQUE
+Renglón: 50, Lexema: si, Token: 105 SI
+Renglón: 50, Lexema: x, Token: 301 ID
+Renglón: 50, Lexema: <=, Token: 607 MENOREQ
+Renglón: 50, Lexema: 0, Token: 401 CENT
+Renglón: 50, Lexema: entonces, Token: 106 ENTONCES
+Renglón: 51, Lexema: activo, Token: 305 ID
+Renglón: 51, Lexema: :=, Token: 600 ASIG
+Renglón: 51, Lexema: falso, Token: 202 FALSO
+Renglón: 51, Lexema: ;, Token: 800 PC
+Renglón: 52, Lexema: finsi, Token: 104 FIN_BLOQUE
+Renglón: 55, Lexema: si, Token: 105 SI
+Renglón: 55, Lexema: activo, Token: 305 ID
+Renglón: 55, Lexema: y, Token: 700 Y
+Renglón: 55, Lexema: x, Token: 301 ID
+Renglón: 55, Lexema: >, Token: 604 MAYOR
+Renglón: 55, Lexema: 0, Token: 401 CENT
+Renglón: 55, Lexema: entonces, Token: 106 ENTONCES
+Renglón: 56, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 56, Lexema: (, Token: 802 PAREN
+Renglón: 56, Lexema: "Activo y positivo", Token: 401 CADENA
+Renglón: 56, Lexema: ), Token: 803 TESIS
+Renglón: 56, Lexema: ;, Token: 800 PC
+Renglón: 57, Lexema: finsi, Token: 104 FIN_BLOQUE
+Renglón: 59, Lexema: si, Token: 105 SI
+Renglón: 59, Lexema: no, Token: 702 NO
+Renglón: 59, Lexema: activo, Token: 305 ID
+Renglón: 59, Lexema: o, Token: 701 O
+Renglón: 59, Lexema: contador, Token: 302 ID
+Renglón: 59, Lexema: ==, Token: 602 IGUALIGUAL
+Renglón: 59, Lexema: 0, Token: 401 CENT
+Renglón: 59, Lexema: entonces, Token: 106 ENTONCES
+Renglón: 60, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 60, Lexema: (, Token: 802 PAREN
+Renglón: 60, Lexema: "Inactivo o en cero", Token: 401 CADENA
+Renglón: 60, Lexema: ), Token: 803 TESIS
+Renglón: 60, Lexema: ;, Token: 800 PC
+Renglón: 61, Lexema: finsi, Token: 104 FIN_BLOQUE
+Renglón: 65, Lexema: x, Token: 301 ID
+Renglón: 65, Lexema: :=, Token: 600 ASIG
+Renglón: 65, Lexema: 7, Token: 405 CENT
+Renglón: 65, Símbolo no identificado '@' (posible error)
+Renglón: 65, Lexema: ;, Token: 800 PC
+Renglón: 68, Lexema: resultado, Token: 303 ID
+Renglón: 68, Lexema: :=, Token: 600 ASIG
+Renglón: 68, Lexema: x, Token: 301 ID
+Renglón: 68, Lexema: +, Token: 500 MAS
+Renglón: 68, Lexema: 1, Token: 406 CENT
+Renglón: 68, Símbolo no identificado '#' (posible error)
+Renglón: 68, Lexema: 2, Token: 403 CENT
+Renglón: 68, Lexema: ;, Token: 800 PC
+Renglón: 71, Lexema: impcad, Token: 211 IMPCAD
+Renglón: 71, Lexema: (, Token: 802 PAREN
+Renglón: 73, Lexema: fin, Token: 103 FIN
+
+-----------------------------------------------------------------
+  ERRORES LÉXICOS ENCONTRADOS: 3
+-----------------------------------------------------------------
+ERROR LÉXICO en línea 65: símbolo no identificado '@' (posible error)
+ERROR LÉXICO en línea 68: símbolo no identificado '#' (posible error)
+ERROR LÉXICO en línea 71: cadena no cerrada, falta '"' de cierre
+=================================================================

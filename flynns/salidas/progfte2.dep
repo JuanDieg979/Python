@@ -1,0 +1,6 @@
+=================================================================
+  PROGRAMA FUENTE DEPURADO - LENGUAJE FLYNNS
+  (una sola linea, sin comentarios ni espacios en blanco)
+=================================================================
+
+pf2025 PruebaSistema decl Ent x , contador , resultado ; cad mensaje ; Bool activo ; inicio x := 10 ; contador := 0 ; activo := verdadero ; resultado := x + contador ; resultado := x - 3 ; resultado := x * 2 ; resultado := x / 5 ; impcad ( "Ingresa un valor:" ) ; leerdig ( x ) ; impdig ( resultado ) ; leercad ( mensaje ) ; impcad ( mensaje ) ; leerBool ( activo ) ; impBool ( activo ) ; si x > 0 entonces impcad ( "Positivo" ) ; sino impcad ( "No positivo" ) ; finsi si x == 10 entonces impcad ( "Es diez" ) ; finsi si x != 5 entonces impcad ( "No es cinco" ) ; finsi si x >= 10 entonces activo := verdadero ; finsi si x <= 0 entonces activo := falso ; finsi si activo y x > 0 entonces impcad ( "Activo y positivo" ) ; finsi si no activo o contador == 0 entonces impcad ( "Inactivo o en cero" ) ; finsi x := 7 ; resultado := x + 1 2 ; impcad ( fin

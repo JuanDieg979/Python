@@ -1,0 +1,6 @@
+=================================================================
+  PROGRAMA FUENTE DEPURADO - LENGUAJE FLYNNS
+  (una sola linea, sin comentarios ni espacios en blanco)
+=================================================================
+
+pf2025PruebaSistemadeclEntx,contador,resultado;cadmensaje;Boolactivo;iniciox:=10;contador:=0;activo:=verdadero;resultado:=x+contador;resultado:=x-3;resultado:=x*2;resultado:=x/5;impcad("Ingresa un valor:");leerdig(x);impdig(resultado);leercad(mensaje);impcad(mensaje);leerBool(activo);impBool(activo);six>0entoncesimpcad("Positivo");sinoimpcad("No positivo");finsisix==10entoncesimpcad("Es diez");finsisix!=5entoncesimpcad("No es cinco");finsisix>=10entoncesactivo:=verdadero;finsisix<=0entoncesactivo:=falso;finsisiactivoyx>0entoncesimpcad("Activo y positivo");finsisinoactivoocontador==0entoncesimpcad("Inactivo o en cero");finsix:=7;resultado:=x+12;impcad(fin
