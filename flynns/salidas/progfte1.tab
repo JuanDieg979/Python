@@ -1,0 +1,24 @@
+═════════════════════════════════════════════════════════════════
+  TABLA DE SÍMBOLOS - LENGUAJE FLYNNS
+═════════════════════════════════════════════════════════════════
+  Total de entradas: 11
+═════════════════════════════════════════════════════════════════
+
+NOMBRE               CATEGORÍA              TIPO            LÍNEA
+-----------------------------------------------------------------
+0                    constante_entera       Ent             63
+10                   constante_entera       Ent             17
+2                    constante_entera       Ent             26
+3                    constante_entera       Ent             67
+5                    constante_entera       Ent             18
+MiPrimerPrograma     identificador          desconocido     1
+a                    identificador          desconocido     6
+b                    identificador          desconocido     6
+bandera              identificador          desconocido     12
+mensaje              identificador          desconocido     9
+resultado            identificador          desconocido     6
+
+═════════════════════════════════════════════════════════════════
+  NOTA: El tipo de los identificadores se determinará
+        en la fase de análisis semántico.
+═════════════════════════════════════════════════════════════════

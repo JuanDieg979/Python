@@ -1,0 +1,74 @@
+pf2025 MiPrimerPrograma /* Encabezado del programa flynns */
+
+decl /* Seccion de declaracion de variables */
+
+/* Variables enteras */
+Ent a, b, resultado;
+
+/* Variables de tipo cadena */
+cad mensaje;
+
+/* Variables booleanas */
+Bool bandera;
+
+inicio
+
+    /* Asignaciones simples */
+    a := 10;
+    b := 5;
+    bandera := verdadero;
+
+    /* Operaciones aritmeticas */
+    resultado := a + b;
+    resultado := a - b;
+    resultado := a * b;
+    resultado := a / b;
+    resultado := a + (b * 2);
+
+    /* Entrada y salida de enteros */
+    impcad("Dame un numero entero:");
+    leerdig(a);
+    impdig(resultado);
+
+    /* Entrada y salida de cadenas */
+    impcad("Ingresa tu nombre:");
+    leercad(mensaje);
+    impcad(mensaje);
+
+    /* Condicional si - entonces - sino - finsi */
+    si a > b entonces
+        impdig(a);
+    sino
+        impdig(b);
+    finsi
+
+    /* Expresiones relacionales */
+    si a == b entonces
+        impcad("Son iguales");
+    finsi
+
+    si a != b entonces
+        impcad("Son diferentes");
+    finsi
+
+    si a >= 10 entonces
+        bandera := verdadero;
+    finsi
+
+    si a <= 5 entonces
+        bandera := falso;
+    finsi
+
+    /* Expresiones logicas con y, o, no */
+    si bandera y a > 0 entonces
+        impcad("Condicion verdadera");
+    finsi
+
+    si no bandera o b < 3 entonces
+        impcad("Condicion alternativa");
+    finsi
+
+    /* Salida booleana */
+    impBool(bandera);
+
+fin

@@ -1,0 +1,73 @@
+pf2025 PruebaSistema /* programa de prueba completo */
+
+decl /* declaracion de variables */
+	Ent x, contador, resultado;
+	cad mensaje;
+	Bool activo;
+
+inicio
+
+	/* prueba de asignaciones normales */
+	x := 10;
+	contador := 0;
+	activo := verdadero;
+
+	/* prueba de operaciones aritmeticas */
+	resultado := x + contador;
+	resultado := x - 3;
+	resultado := x * 2;
+	resultado := x / 5;
+
+	/* prueba de entrada y salida */
+	impcad("Ingresa un valor:");
+	leerdig(x);
+	impdig(resultado);
+	leercad(mensaje);
+	impcad(mensaje);
+	leerBool(activo);
+	impBool(activo);
+
+	/* prueba de condicional completa */
+	si x > 0 entonces
+		impcad("Positivo");
+	sino
+		impcad("No positivo");
+	finsi
+
+	/* prueba de operadores relacionales */
+	si x == 10 entonces
+		impcad("Es diez");
+	finsi
+
+	si x != 5 entonces
+		impcad("No es cinco");
+	finsi
+
+	si x >= 10 entonces
+		activo := verdadero;
+	finsi
+
+	si x <= 0 entonces
+		activo := falso;
+	finsi
+
+	/* prueba de operadores logicos */
+	si activo y x > 0 entonces
+		impcad("Activo y positivo");
+	finsi
+
+	si no activo o contador == 0 entonces
+		impcad("Inactivo o en cero");
+	finsi
+
+	/* --- ERRORES INTENCIONADOS --- */
+	/* el @ no es un simbolo valido en flynns */
+	x := 7@;
+
+	/* el # tampoco es valido */
+	resultado := x + 1#2;
+
+	/* cadena sin cerrar (error) */
+	impcad("esta cadena no se cierra
+
+fin
