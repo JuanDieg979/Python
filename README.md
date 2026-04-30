@@ -1,1 +1,2 @@
 # Python
+## Idea principal
