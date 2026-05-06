@@ -4,4 +4,5 @@ Este repositorio funcionara para poder practicar el lenguaje python y entender s
 ## MachineLearning
 Principios de aprendizaje sobre machinelearning
 ## APP para saber que cartas del mundial te faltan
+Seria buena idea empezar a desarrollarlo con una interfaz sencilla
 ## Conclusiones
