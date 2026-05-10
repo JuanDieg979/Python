@@ -9,3 +9,4 @@ Seria buena idea empezar a desarrollarlo con una interfaz sencilla
 Estaria bien realizar una app para cada album
 ## Conclusiones
 ## Especificaciones técnicas 
+# Pruebas técnicas 
