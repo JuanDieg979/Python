@@ -11,3 +11,4 @@ Estaria bien realizar una app para cada album
 ## Especificaciones técnicas 
 # Pruebas técnicas 
 ## App que te ubica en el tec 
+## Ciberseguridad
