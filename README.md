@@ -14,3 +14,4 @@ Estaria bien realizar una app para cada album
 ## Ciberseguridad
 ## CC ISC2
 ## Crear repositorio de CC 
+## Creacion de modelo 3S
