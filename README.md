@@ -17,3 +17,4 @@ Estaria bien realizar una app para cada album
 ## Creacion de modelo 3S
 ## Repositorio CC
 para ciberseguridad 
+## Correccion de auromata
